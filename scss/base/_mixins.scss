@@ -1,0 +1,11 @@
+
+/* se quito la escala, ya que para el proyecto final no aplica*/
+
+
+@mixin transform {
+    transform: scale(0);
+    transition: all 1s ease;
+}
+
+
+

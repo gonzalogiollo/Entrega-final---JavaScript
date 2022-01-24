@@ -1,0 +1,756 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+/* clases para todo el index.html*/
+.ul-principal {
+  list-style: none;
+  display: flex;
+  left: 0px;
+}
+
+.ul-principal .sub li {
+  width: 200px;
+}
+
+li {
+  width: 100px;
+  background-color: white;
+  padding-top: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 1%;
+}
+
+.links {
+  color: black;
+}
+
+.botones {
+  width: 100px;
+  height: 100px;
+  float: right;
+  background-color: lightslategray;
+  border-radius: 50%;
+  transition: all 1.5s ease;
+  font-family: "Roboto", sans-serif;
+  font-size: x-large;
+  border: black solid;
+}
+
+.contactoBoton {
+  color: black;
+}
+
+#carouselExampleControls div div img {
+  height: 10%;
+}
+
+.margen-superior {
+  margin-top: 10px;
+  display: block;
+}
+
+#aprovecha {
+  background: white;
+}
+
+#aprovecha p {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-size: 300%;
+  opacity: 0.6;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  padding-top: 8%;
+  padding-bottom: 8%;
+  padding-left: 3%;
+}
+
+#aprovecha a img {
+  height: 100%;
+  width: 100%;
+}
+
+.parrafoDescripcion > p {
+  background-color: #e5e8e8;
+  padding-left: 1%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  display: flex;
+  justify-content: center;
+}
+
+.titulos-2 {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-size: 300%;
+  background-color: #e5e8e8;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.texto-concecionario {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-size: 150%;
+  background-color: #e5e8e8;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 2%;
+}
+
+.links-descripcion {
+  color: cornflowerblue;
+}
+
+.alineacion-video-mapa {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 0, 5px;
+  padding-bottom: 1%;
+}
+
+.titulos {
+  font-family: "Roboto", sans-serif;
+  color: blue;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+/* se aplica clase "P" para todos los parrafos queden sin margen inferior, y que anule a la que viene con bootstrap*/
+p {
+  margin-bottom: 0 !important;
+}
+
+.fondoVideoMapa {
+  background-color: #e5e8e8;
+}
+
+header {
+  /* background-image: url("../img/motoIndex.png"); */
+  width: 100%;
+  background-position: center;
+}
+
+footer {
+  background: linear-gradient(#000046, #1cb5e0);
+  padding-top: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 1%;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+}
+
+footer ul {
+  margin-left: 0;
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  float: right;
+  padding-left: 0;
+  margin-bottom: 0;
+  flex-direction: column;
+  padding-left: 10%;
+  padding-right: 5%;
+  margin-bottom: 5%;
+}
+
+footer ul li {
+  width: 50%;
+  padding-top: 1%;
+  padding-right: 1%;
+  padding-bottom: 0%;
+  margin-right: 0%;
+  background-color: transparent;
+  display: flex;
+}
+
+footer ul li a {
+  color: white;
+}
+
+footer ul li a:hover {
+  color: white;
+}
+
+.tituloFooter {
+  font-size: x-large;
+  padding-top: 0;
+  margin-top: 0;
+  padding-left: 0;
+  width: 50%;
+  color: white;
+  font-weight: 100;
+}
+
+@media (max-width: 469px) {
+  .tituloFooter {
+    width: 100%;
+    padding-bottom: 1rem;
+  }
+}
+.textoFooter {
+  font-size: medium;
+  padding-left: 2%;
+  padding-right: 2%;
+  width: 50%;
+  color: white;
+  display: inline-block;
+}
+
+@media (max-width: 469px) {
+  .textoFooter {
+    width: 100%;
+    padding-bottom: 1rem;
+  }
+}
+.mapa {
+  display: inline-block;
+}
+
+/* menu desplegable */
+.sub-menu > ul {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 86px;
+  background: white;
+  padding: 0;
+}
+
+.dropdown-itemDos {
+  color: black;
+  width: 143%;
+  border: black solid 0.8px;
+  border-radius: 0.25rem;
+}
+
+.dropdown-menu-white {
+  background-color: aquamarine;
+}
+
+.dropdown-menu {
+  width: 120%;
+  background-color: brown;
+}
+
+.site-navbar {
+  width: 100%;
+  z-index: 1999;
+  margin-bottom: 0px;
+  top: 0;
+}
+
+.site-navbar a {
+  color: #2b2929;
+}
+
+.site-navbar a:hover {
+  color: #2b2929;
+}
+
+.margenesGlobales {
+  margin: 2em 2em 2em 2em;
+}
+
+label {
+  font-weight: lighter;
+  font-size: 34px;
+  margin: 0.5em;
+}
+
+.botonHamburguesa {
+  width: auto;
+  height: 2em;
+  margin-left: -16px;
+}
+
+a {
+  color: black;
+  display: block;
+}
+
+.sub-menu ul li {
+  float: none;
+}
+
+.sub-menu:hover > ul {
+  display: block !important;
+}
+
+.sticky {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.whatsapp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 100;
+}
+
+.whatsapp-icon {
+  margin-top: 13px;
+}
+
+/*se aplico un gadiente en el FOOTER, buscar la clase footer que aplica para todos los html del proyecto*/
+/* medias query aplicadas al Home (index.html) . con mobile first, luego tablet y luego pc (desktop)*/
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+  #grillaGeneral {
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-areas: "cabecera" "descripcionSection" "aprovecha" "textoDescripcion" "concesionarios" "videoMapa";
+  }
+
+  header {
+    background-image: url("../img/fotoCarousel1.png");
+    background-size: 100% 100%;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+  }
+
+  .margen-superior {
+    margin-top: 10px;
+    display: block;
+  }
+
+  .titulos {
+    font-family: "Roboto", sans-serif;
+    color: blue;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .titulos-2 {
+    font-family: "Roboto", sans-serif;
+    color: black;
+    font-size: 100%;
+    background-color: #e5e8e8;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .texto-concecionario {
+    font-family: "Roboto", sans-serif;
+    color: black;
+    font-size: 100%;
+    background-color: #e5e8e8;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 2%;
+    padding-right: 1%;
+    padding-left: 1%;
+  }
+
+  #aprovecha p {
+    font-family: "Roboto", sans-serif;
+    color: black;
+    font-size: 200%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  #aprovecha a img {
+    height: auto;
+    width: 100%;
+  }
+
+  #videoMapa {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .parrafoDescripcion > p {
+    background-color: #e5e8e8;
+    padding-right: 1%;
+    padding-left: 1%;
+    display: inline-block;
+  }
+
+  .parrafoDescripcion > p a {
+    display: inline;
+  }
+
+  .fondosTitulosContacto {
+    background: #f8f9f9;
+  }
+
+  .fondosTitulosContacto p {
+    color: black;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 100%;
+  }
+
+  .imagen-contacto {
+    display: none;
+  }
+
+  .grid-container img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  footer ul {
+    margin-left: 0;
+  }
+}
+@media only screen and (min-width: 501px) and (max-width: 768px) {
+  #grillaGeneral {
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-areas: "cabecera" "descripcionSection" "aprovecha" "textoDescripcion" "concesionarios" "videoMapa" "checkBox" "sectorDestino" "botonesContacto";
+  }
+
+  header {
+    background-image: url("../img/fotoCarousel1.png");
+    background-size: 100% 100%;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+  }
+
+  .margen-superior {
+    margin-top: 10px;
+    display: block;
+  }
+
+  .titulos-2 {
+    font-family: "Roboto", sans-serif;
+    color: black;
+    font-size: 40px;
+    background-color: #e5e8e8;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  #videoMapa {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .parrafoDescripcion > p {
+    padding-left: 1%;
+    display: inline-block;
+    background-color: #e5e8e8;
+    padding-right: 1%;
+    padding-left: 1%;
+  }
+
+  .parrafoDescripcion > p a {
+    display: inline;
+  }
+
+  #aprovecha p {
+    font-family: "Roboto", sans-serif;
+    color: black;
+    font-size: 200%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  #aprovecha a img {
+    height: auto;
+    width: 100%;
+  }
+
+  .texto-concecionario {
+    font-family: "Roboto", sans-serif;
+    color: black;
+    font-size: 100%;
+    background-color: #e5e8e8;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 2%;
+    padding-right: 1%;
+    padding-left: 1%;
+  }
+
+  .fondosTitulosContacto {
+    background: #f8f9f9;
+  }
+
+  .fondosTitulosContacto p {
+    color: black;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 200%;
+  }
+
+  .imagen-contacto {
+    display: none;
+  }
+
+  .grid-container img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  footer ul {
+    margin-left: 0;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 920px) {
+  #grillaGeneral {
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-areas: "cabecera" "descripcionSection" "aprovecha" "textoDescripcion" "concesionarios" "videoMapa" "checkBox" "sectorDestino" "botonesContacto";
+  }
+
+  .texto-concecionario {
+    font-family: "Roboto", sans-serif;
+    color: black;
+    font-size: 100%;
+    background-color: #e5e8e8;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 2%;
+    padding-right: 1%;
+    padding-left: 1%;
+  }
+
+  .parrafoDescripcion > p {
+    padding-left: 1%;
+    display: inline-block;
+    background-color: #e5e8e8;
+    padding-right: 1%;
+    padding-left: 1%;
+  }
+
+  .parrafoDescripcion > p a {
+    display: inline;
+  }
+
+  #aprovecha p {
+    font-family: "Roboto", sans-serif;
+    color: black;
+    font-size: 200%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  #aprovecha a img {
+    height: auto;
+    width: 100%;
+  }
+}
+.dropdown-menu {
+  border: none !important;
+}
+
+/* clases para contacto.html*/
+.imagen-contacto {
+  height: 100%;
+  width: 100%;
+  background-position: center;
+}
+
+.titulosContacto {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  font-size: 300%;
+  transition: all 1.5s;
+}
+
+.fondosTitulosContacto {
+  background-color: #f8f9f9;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.formulario {
+  border: 1px solid gray;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 1%;
+}
+
+.imagen-datos {
+  height: 30%;
+  width: 100%;
+  background-position: center;
+}
+
+.margenes {
+  margin-top: 30px;
+}
+
+/* clases para tienda.html*/
+.h5 {
+  font-size: 40px;
+  background-color: lightslategrey;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.imagen-tienda {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0%;
+  margin: 0%;
+}
+
+/* clases para seguros.html*/
+.avisoImportante {
+  margin-bottom: 1%;
+}
+
+.avisoImportante p {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 3%;
+  padding-top: 3%;
+  background-color: #e5e8e8;
+}
+
+.avisoImportante .aviso {
+  color: red;
+  font-size: 40px;
+}
+
+.cardGeneral {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 3%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-right: 3%;
+}
+
+.cardGeneral div div div .card-img-top {
+  width: 100%;
+  height: 100%;
+}
+
+.cardGeneral div div div h5 {
+  display: flex;
+  justify-content: center;
+}
+
+.cardGeneral div div div p {
+  display: flex;
+  justify-content: center;
+}
+
+.cardGeneral div div div a {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.car-img-top {
+  width: 100%;
+  height: 100%;
+}
+
+/* clases para novedades.html*/
+.h3 {
+  font-size: 40px;
+  background-color: lightslategrey;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+/*.imagen-novedades{     ----- se reemplaza por grid------
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagen-novedades > img{
+
+    width: 50%;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+
+
+/* aplicando grid a un html del proyecto*/
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+}
+
+.grid-img {
+  display: grid;
+  width: 100%;
+  height: 100%;
+}
+
+.avisoSeguros {
+  background-color: #979dac;
+}
+
+.imagen-seguros {
+  width: 100%;
+}
+
+.imagen-seguros img {
+  width: 100%;
+  height: 100%;
+}
+
+/* se quito la escala, ya que para el proyecto final no aplica*/
+/*# sourceMappingURL=style.css.map */
+
+/*# sourceMappingURL=style.scss.map */

@@ -1,0 +1,95 @@
+
+@import '../base/variables';
+
+/* clases para seguros.html*/
+
+
+
+
+.avisoImportante{
+
+    margin-bottom: 1%;
+    
+
+    p{
+        text-align: center;
+        font-family: $tipoletra;
+        padding-left: 1%;
+        padding-right: 1%;
+        padding-bottom: 3%;
+        padding-top: 3%;
+        background-color: nth($bg-color-titulos, 11 );
+
+       
+    }
+
+    .aviso{
+        color: red;
+        font-size: 40px;
+
+    }
+}
+
+
+.cardGeneral{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 3%;
+
+
+    div{
+
+        div{
+        
+
+
+            div{
+
+                .card-img-top{
+                    width: 100%;
+                    height: 100%;
+                }
+
+                
+                h5{
+                    display: flex;
+                    justify-content: center;
+                }
+        
+                p{
+                    display: flex;
+                    justify-content: center;
+        
+                }
+        
+                a{
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 1rem;
+                }
+            }
+    
+    
+        }
+
+
+    }
+
+    
+}
+
+.car-img-top{
+    width: 100%;
+    height: 100%;
+}
+
+
+.girarCard{
+
+    transform: rotateY(180deg);
+
+}
